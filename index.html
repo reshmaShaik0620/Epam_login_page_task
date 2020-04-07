@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sign-in">
+        <div class="head">
+          <i class="fa fa-graduation-cap"></i>
+          <p>Sign in</p>
+          <i class="fa fa-remove"></i>
+        </div>
+        <br>
+        <div class="body">
+          <form class="sign-inform" action="index.html" method="post">
+            <div class="input-group">
+               <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+               <input id="email" type="text" class="form-control" name="email" placeholder="mail@example.com">
+            </div>
+            <br>
+            <div class="input-group">
+               <span class="input-group-addon"><i class="fa fa-unlock"></i></span>
+               <input id="password" type="password" class="form-control" name="password" placeholder="password">
+            </div>
+            <br>
+            <button class="btn signinbtn" type="submit">SIGN IN</button>
+            <div class="options">
+              <p>Forgot your password?</p>
+              <p>Register!</p>
+            </div>
+          </form>
+          <hr class="hr-text" data-content="OR">
+          <div class="bottom">
+            <button class="btn facebookbtn" type="submit"><i class="fa fa-facebook-f"></i></button>
+            <br><br>
+            <button class="btn googlebtn" type="submit"><i class="fa fa-google"></i></button>
+            <br><br><br>
+            <button class="btn epambtn" type="submit">< EPAM LOGIN ></button>
+            <br><br><br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
